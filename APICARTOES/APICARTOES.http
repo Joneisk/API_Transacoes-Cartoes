@@ -1,0 +1,6 @@
+@APICARTOES_HostAddress = http://localhost:5261
+
+GET {{APICARTOES_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

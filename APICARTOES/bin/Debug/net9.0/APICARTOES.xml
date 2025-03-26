@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>APICARTOES</name>
+    </assembly>
+    <members>
+        <member name="T:APICARTOES.Controllers.CartoesController">
+            <summary>
+            Controle de Cartões
+            </summary>
+        </member>
+        <member name="M:APICARTOES.Controllers.CartoesController.GetCartoes(System.String)">
+            <summary>
+            Obtem a bandeira do cartão
+            </summary>
+            <param name="cartao"></param>
+            <returns></returns>
+        </member>
+        <member name="M:APICARTOES.Controllers.CartoesController.GetCartaoValido(System.String)">
+            <summary>
+            Verifica se o Cartão é valido
+            </summary>
+            <param name="cartao"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
